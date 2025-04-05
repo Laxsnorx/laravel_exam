@@ -6,5 +6,3 @@ composer install
 php artisan key:generate
 
 sed -i "s/^APP_DEBUG=.*/APP_DEBUG=false/" .env
-
-php artisan serve
